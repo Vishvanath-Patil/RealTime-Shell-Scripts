@@ -21,6 +21,18 @@ Proper Configuration: Some scripts use variables like "your-instance-id," "your-
 
 Always exercise caution when running scripts that interact with your AWS resources. Ensure that you thoroughly review and understand the scripts' functionality and potential impact before executing them.
 
+#shell script that monitors the CPU, memory, and disk usage of EC2 instances:
+=============================================================================
+
+Replace "your-instance-id" with the actual instance ID you want to monitor. The script uses the AWS CLI to retrieve CPU, memory, and disk usage metrics from Amazon CloudWatch for the specified instance.
+
+You'll need to have the AWS CLI installed and configured with the appropriate credentials on the machine where you run the script. The script queries the CloudWatch metrics for the past 5 minutes and calculates the average usage. Adjust the --start-time and --end-time values if you want to monitor a different time range.
+
+You can customize the script further to monitor multiple instances by adding additional instance IDs and calling the calculation functions accordingly.
+
+
+
+
 
 
 
