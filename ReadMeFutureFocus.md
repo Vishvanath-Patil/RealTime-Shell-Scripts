@@ -1,4 +1,5 @@
 50 shell script examples for a AWS with a DevOps Engineer focus. These scripts cover various real-world scenarios and tasks commonly encountered in an AWS DevOps environment
+
 Script to create an EC2 instance
 Script to terminate an EC2 instance
 Script to start an EC2 instance
