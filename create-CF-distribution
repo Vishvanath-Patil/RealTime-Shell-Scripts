@@ -1,0 +1,5 @@
+#!/bin/bash
+
+origin_id="your-origin-id"
+bucket_domain="your-bucket-domain"
+aws cloudfront create-distribution --distribution-config file://config.json
