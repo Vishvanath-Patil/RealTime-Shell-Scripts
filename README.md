@@ -30,6 +30,16 @@ You'll need to have the AWS CLI installed and configured with the appropriate cr
 
 You can customize the script further to monitor multiple instances by adding additional instance IDs and calling the calculation functions accordingly.
 
+>>>>>>>>>>> To send a notification to an email address when CPU, memory, or disk utilization reaches 50% or more on an EC2 instance, you can modify the previous script to include the email notification functionality. <<<<<<<<<<<<<<<<
+
+In this updated script, a new function send_notification has been added. This function takes the subject (CPU Usage, Memory Usage, or Disk Usage) and the instance ID as input parameters. If the respective utilization is above 50%, it sends an email notification to the specified email address (pvishva932@gmail.com in this case) using the mail command.
+
+Make sure to have the mail command installed on your system and properly configured to send emails. You may need to set up an email server or configure the mail command to use an external email service.
+
+Remember to modify the email address in the send_notification function to the appropriate recipient address.
+
+
+
 
 
 
